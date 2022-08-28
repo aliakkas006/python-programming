@@ -81,15 +81,15 @@ class DoublyLinkedList:
 
 my_linked_list = DoublyLinkedList()
 
-my_linked_list.insert_head("A")
-my_linked_list.insert_head("B")
-my_linked_list.insert_tail("C")
-my_linked_list.insert_tail("D")
-my_linked_list.insert_tail("E")
-my_linked_list.insert_tail("F")
-
-my_linked_list.remove("F")
-my_linked_list.remove_last()
-
-my_linked_list.print_linked_list()
-print(f"size of this doubly linked list: {my_linked_list.size}")
+# my_linked_list.insert_head("A")
+# my_linked_list.insert_head("B")
+# my_linked_list.insert_tail("C")
+# my_linked_list.insert_tail("D")
+# my_linked_list.insert_tail("E")
+# my_linked_list.insert_tail("F")
+#
+# my_linked_list.remove("F")
+# my_linked_list.remove_last()
+#
+# my_linked_list.print_linked_list()
+# print(f"size of this doubly linked list: {my_linked_list.size}")
