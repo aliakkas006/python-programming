@@ -1,22 +1,22 @@
 # print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
-# name = input("Enter your name: ").strip().title()
-#
-# print(f"Asslamualaikum, {name}")
+name = input("Enter your name: ").strip().title()
 
-# x = int(input("Enter x's value: "))
-# y = int(input("Enter y's value: "))
+print(f"Asslamualaikum, {name}")
 
-# z = x + y
+x = int(input("Enter x's value: "))
+y = int(input("Enter y's value: "))
 
-# print(f"The result = {z}")
+z = x + y
 
-# x1 = float(input("Enter a number: "))
-# y1 = float(input("Enter a number: "))
-#
-# z1 = round(x1 + y1)
-#
-# print(f"The result = {z1:,}")   # comma before triple zero
+print(f"The result = {z}")
+
+x1 = float(input("Enter a number: "))
+y1 = float(input("Enter a number: "))
+
+z1 = round(x1 + y1)
+
+print(f"The result = {z1:,}")   # comma before triple zero
 
 
 def main():
@@ -28,6 +28,6 @@ def square(n):
     return pow(n, 2)
 
 
-# main()
+main()
 
 
